@@ -1,0 +1,94 @@
+
+body {
+  height: 100vh;
+}
+
+/* ------------ General ------------ */
+
+.rounded-corners {
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.member {
+  min-height: 7vh;
+}
+
+/* ------------ COL-1 ------------ */
+
+.empty {
+  width: 8vh;
+}
+
+#name {
+    height: 4vh;
+}
+
+#desc {
+    resize: none;
+}
+
+.budget {
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    color: black;
+}
+
+/* Remove arrows from budget selector */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* ------------ COL-2 ------------ */
+
+#ini-row {
+    max-height: 10%;
+}
+
+#ini {    
+    max-width: 88%;
+}
+
+#people {
+    max-width: 10%;
+    padding-top: 7px;
+}
+
+.creator {
+  min-height: 5vh;
+}
+
+#trash:hover {
+    fill: #adadad;
+}
+
+#indicator {
+    display: flex;
+    align-items: center;
+    max-width: 7%;
+    float: right;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.balance {
+    float: right;
+    justify-content: end;
+    padding-right: 5%;
+}
